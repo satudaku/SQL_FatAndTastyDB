@@ -9,10 +9,13 @@ This Assignment was given from System and Database Design unit.
   Implementation of database creation script, database Population script, and various view queries. 
 
 ## Documentation
-  ### Assignment - Task 1
+  ### Assignment - Task 1.docx
   Includes: General Assignment Information, Scenario Details, and Guidelines.
-  ### Assignment - Task 2
-  Include: Implementation and Testing: Database creationg Script, Database Population Script, and various view queries.
+  ### Assignment - Task 2.docx
+  Includes: Implementation and Testing: Database creation Script, Database Population Script, and various view queries.
+  ### CSG12070D_Daiki_AT2.docx
+  Includes: Assumptions, Notes, Logical ERD, Physical ERD, Table Instance Charts (TIC), Database CREATE Script, INSERT Scripts, VIEW Scripts, Various Queries, Queries' Result, Database Schema, and List of Constraints.
+  
   
 ## Scenario Details
 Fast And Tasty (FAT) is a small chain of fast food stores. You have been hired to design a database system for FAT. The database must store details about staff, their shifts at stores, staff pay and suppliers of FAT and FAT products. You have been given the following information about the way FAT operates. Note that the information required below is the minimum.
@@ -173,10 +176,11 @@ From scenarios details above, we can derive assumptions and notes as below:
 ## Implementation
 Implement designed database in a DBMS, populate the database, and manipulate the data via queries.
 ### Database Creation Script
-Script to create the database we have designed including data types, properties and constraints specified in TIC.
+Script to create the database we have designed including data types, properties and constraints specified in TIC. Cited in `create_database.sql` file.
 ### Database Population Script
-Script consisting of INSERT statements that populates the tables of the database.
+Script consisting of INSERT statements that populates the tables of the database. Cited in `insert.sql` file.
 ### View
+Cited in `view.sql` file and the result in `CSG12070D_Daiki_AT2.docx` file.
 #### Staff Availability View
 Create a view which shows all details of all staff and their availability details.  The view should include the last name and first name of the staff member, the full name of their mentor (if any), their hourly salary and the days and times they are available for work. Sort the output by staff last name, then first name.
 #### Pay View
@@ -185,6 +189,7 @@ Create a view which shows all details of how much each staff member should be pa
 - A column named “Pay”, which is defined as the number of hours of the shift multiplied by the hourly salary.
 - A column named “Super”, which multiplies the number of hours worked by the super rate. 
 ### Queries
+Cited in `query.sql` file and the result in `CSG12070D_Daiki_AT2.docx` file.
 #### Query 1 – Store Shifts
 Produce a query to display details of shifts worked at each store.  The output should include the names of the store, the name of the store manager, the date and start and end times of the shifts and the names of the staff members working each shift. Order the results store name, then by the date of the shifts, then by start times. 
 #### Query 2 – Store Suppliers
@@ -195,4 +200,7 @@ Produce a query that shows the details of all staff who do not mentor other staf
 #### Query 4 – Shift Statistics
 Produce a query that shows the store name, the number of shifts worked, the number of hours worked, and the number of staff employed during a given month.  Order the results by number of hours worked (highest to lowest) and be sure to give all columns appropriate names.
 #### Query 5 – Store Spend 
-Produce a query to display the name of three stores that spend the most money on purchasing products. Show the store name, the manager name, and the total amount of money spent on purchasing products.  Order the results by the total amount of money spent. 
+Produce a query to display the name of three stores that spend the most money on purchasing products. Show the store name, the manager name, and the total amount of money spent on purchasing products.  Order the results by the total amount of money spent.
+
+## Disclaimer
+File `Assignment - Task 1.docx`, `Assignment - Task 2.docx`, `list_constraints.sql`, and `schema.sql` were given from the unit's tutor. **I did not make them**.
