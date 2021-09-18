@@ -176,10 +176,11 @@ From scenarios details above, we can derive assumptions and notes as below:
 ## Implementation
 Implement designed database in a DBMS, populate the database, and manipulate the data via queries.
 ### Database Creation Script
-Script to create the database we have designed including data types, properties and constraints specified in TIC.
+Script to create the database we have designed including data types, properties and constraints specified in TIC. Cited in `create_database.sql` file.
 ### Database Population Script
-Script consisting of INSERT statements that populates the tables of the database.
+Script consisting of INSERT statements that populates the tables of the database. Cited in `insert.sql` file.
 ### View
+Cited in `view.sql` file and the result in `CSG12070D_Daiki_AT2.docx` file.
 #### Staff Availability View
 Create a view which shows all details of all staff and their availability details.  The view should include the last name and first name of the staff member, the full name of their mentor (if any), their hourly salary and the days and times they are available for work. Sort the output by staff last name, then first name.
 #### Pay View
@@ -188,6 +189,7 @@ Create a view which shows all details of how much each staff member should be pa
 - A column named “Pay”, which is defined as the number of hours of the shift multiplied by the hourly salary.
 - A column named “Super”, which multiplies the number of hours worked by the super rate. 
 ### Queries
+Cited in `query.sql` file and the result in `CSG12070D_Daiki_AT2.docx` file.
 #### Query 1 – Store Shifts
 Produce a query to display details of shifts worked at each store.  The output should include the names of the store, the name of the store manager, the date and start and end times of the shifts and the names of the staff members working each shift. Order the results store name, then by the date of the shifts, then by start times. 
 #### Query 2 – Store Suppliers
