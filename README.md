@@ -173,6 +173,26 @@ From scenarios details above, we can derive assumptions and notes as below:
 ## Implementation
 Implement designed database in a DBMS, populate the database, and manipulate the data via queries.
 ### Database Creation Script
+Script to create the database we have designed including data types, properties and constraints specified in TIC.
 ### Database Population Script
+Script consisting of INSERT statements that populates the tables of the database.
 ### View
+#### Staff Availability View
+Create a view which shows all details of all staff and their availability details.  The view should include the last name and first name of the staff member, the full name of their mentor (if any), their hourly salary and the days and times they are available for work. Sort the output by staff last name, then first name.
+#### Pay View
+Create a view which shows all details of how much each staff member should be paid for the hours they have worked. The view should contain the following columns: 
+- The full name of the staff member (in the form of “surname, first name”), the pay level name, the shift ID, and date, start time and end time of the shift, and the store name at which the shift was worked.
+- A column named “Pay”, which is defined as the number of hours of the shift multiplied by the hourly salary.
+- A column named “Super”, which multiplies the number of hours worked by the super rate. 
 ### Queries
+#### Query 1 – Store Shifts
+Produce a query to display details of shifts worked at each store.  The output should include the names of the store, the name of the store manager, the date and start and end times of the shifts and the names of the staff members working each shift. Order the results store name, then by the date of the shifts, then by start times. 
+#### Query 2 – Store Suppliers
+Produce a query to display the stores and the suppliers which supply products to those stores.  Show the names of the store and the managers of the store, the supplier name, contact name and phone number of the supplier.
+#### Query 3 – Non-mentoring staff 
+Produce a query that shows the details of all staff who do not mentor other staff.  Order the results by last name, then first name.  Give a suitable column heading. Format the output using the following example: 
+`BLOGGS, Joe does not mentor other staff`
+#### Query 4 – Shift Statistics
+Produce a query that shows the store name, the number of shifts worked, the number of hours worked, and the number of staff employed during a given month.  Order the results by number of hours worked (highest to lowest) and be sure to give all columns appropriate names.
+#### Query 5 – Store Spend 
+Produce a query to display the name of three stores that spend the most money on purchasing products. Show the store name, the manager name, and the total amount of money spent on purchasing products.  Order the results by the total amount of money spent. 
