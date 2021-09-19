@@ -12,7 +12,7 @@ This Assignment was given from System and Database Design unit.
   ### Assignment - Task 1.docx
   Includes: General Assignment Information, Scenario Details, and Guidelines.
   ### Assignment - Task 2.docx
-  Includes: Implementation and Testing: Database creation Script, Database Population Script, and various view queries.
+  Includes: Implementation and Testing: Database creation Script, Database Population Script, views, and various queries.
   ### CSG12070D_Daiki_AT2.docx
   Includes: Assumptions, Notes, Logical ERD, Physical ERD, Table Instance Charts (TIC), Database CREATE Script, INSERT Scripts, VIEW Scripts, Various Queries, Queries' Result, Database Schema, and List of Constraints.
   
@@ -58,7 +58,7 @@ From scenarios details above, we can derive assumptions and notes as below:
 ## Physical ER Diagram
 ![fat_physical_erd_v4](https://user-images.githubusercontent.com/87003366/133891952-3951d954-e8dc-4141-9408-12a652a72a64.png)
 
-## Table Creation Order
+### Table Creation Order
 1. PAY
 2. STAFF
 3. AVAILABILITY
